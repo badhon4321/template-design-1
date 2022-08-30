@@ -15,8 +15,8 @@
     right: 0;
     top: 0;
     z-index: 999;
-    background-color: rgba(255,255,255,0.13);
-    backdrop-filter: blur(10px);
+    background-color: rgba(227, 225, 225, 0.2);
+    backdrop-filter: blur(80px);
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 #full-wrapper {
@@ -449,7 +449,9 @@
     width: 1170px;
     height: 100vh;
     position: absolute;
-    margin-top: -620px;
+    /* top: 0; */
+
+    margin-top: -636px;
 }
 #business-idea .business-shape img{
     width: 100%;
@@ -539,9 +541,9 @@ margin-left: 20px;
 }
 .feedbacker .name .star{
     display: flex;
-}
-.feedbacker .name .star img{
-    width: 10px;
+    width: 8px;
+    margin-top: -5px;
+    color: coral;
 }
 /* our customer feedback part end */
 
